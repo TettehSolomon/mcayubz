@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
+import imageSrc from './assets/mc_1.jpg';
 
 const MCAyubzPortfolio = () => {
   // State for mobile menu toggle
@@ -168,7 +169,7 @@ const MCAyubzPortfolio = () => {
               <img
                 className="w-full h-full object-cover rounded-2xl"
                 alt="Professional male MC in sharp suit and traditional cap speaking into microphone at luxury corporate gala"
-                src="https://lh3.googleusercontent.com/aida-public/AB6AXuD785USIIuQFJy29XGTCWHIQMThsokVyinn14Czf55oJj_KIMvaIgDazuQahEFXyge5TR6Aa1_rqvvyfouUBXBLQSUPJmmfAQHmciAkXQW3m-JtvxLNcrP3QP1nK-0Zao47YOAaOvX8336IRNziSsBF5UsSAPHnKLQGfJ5P3Oa5NvLk_SSb2XbM3Bh_yx4iOtSmBlY9s7uhPbUhLzTBpfRkij-QxQ9gwyclz0hDDMqZRzI38vFs6BtIykvivFfiD6kTqFq0j9Indt8"
+                src={imageSrc}
               />
             </div>
             <div className="absolute -bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px]">
