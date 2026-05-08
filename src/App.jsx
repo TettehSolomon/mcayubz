@@ -130,13 +130,13 @@ const MCAyubzPortfolio = () => {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-32 relative">
+      <section id="about" className="py-32 relative bg-[#F2F9FB]">
         <div className="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
           <div className="order-2 md:order-1">
             <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#00daf3] mb-4 uppercase">
               The Philosophy
             </h2>
-            <h3 className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-8">
+            <h3 className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#5d5a5a] mb-8">
               Bridging Two Worlds: Clean Entertainment &amp; Hybrid Hosting.
             </h3>
             <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] mb-8">
@@ -154,13 +154,13 @@ const MCAyubzPortfolio = () => {
               </span>
             </div>
             <div className="grid grid-cols-2 gap-6">
-              <div className="p-6 bg-[#1c1b1b] rounded-xl">
-                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#ffe16d] block mb-2">500+</span>
-                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab]">Events Orchestrated</span>
+              <div className="p-6 bg-[#A7AAAD] rounded-xl">
+                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">500+</span>
+                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Events Orchestrated</span>
               </div>
-              <div className="p-6 bg-[#1c1b1b] rounded-xl">
-                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#ffe16d] block mb-2">12</span>
-                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab]">Global Brands</span>
+              <div className="p-6 bg-[#A7AAAD] rounded-xl">
+                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">12</span>
+                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Global Brands</span>
               </div>
             </div>
           </div>
