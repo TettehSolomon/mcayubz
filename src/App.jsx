@@ -98,6 +98,71 @@ const MCAyubzPortfolio = () => {
           text-shadow: 0 0 20px rgba(255, 225, 109, 0.3);
         }
         
+        /* Fade in and slide up animation */
+        @keyframes fadeInUp {
+          from {
+            opacity: 0;
+            transform: translateY(30px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+        
+        .animate-fade-in-up {
+          animation: fadeInUp 0.8s ease-out forwards;
+          opacity: 0;
+        }
+        
+        /* Slide in from right animation */
+        @keyframes slideInRight {
+          from {
+            transform: translateX(100%);
+            opacity: 0;
+          }
+          to {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+        
+        .animate-slide-in-right {
+          animation: slideInRight 0.3s ease-out forwards;
+        }
+        
+        /* Fade in animation */
+        @keyframes fadeIn {
+          from {
+            opacity: 0;
+          }
+          to {
+            opacity: 1;
+          }
+        }
+        
+        .animate-fade-in {
+          animation: fadeIn 0.8s ease-out forwards;
+          opacity: 0;
+        }
+        
+        /* Slide in from left animation */
+        @keyframes slideInLeft {
+          from {
+            transform: translateX(-50px);
+            opacity: 0;
+          }
+          to {
+            transform: translateX(0);
+            opacity: 1;
+          }
+        }
+        
+        .animate-slide-in-left {
+          animation: slideInLeft 0.8s ease-out forwards;
+          opacity: 0;
+        }
+        
         /* Custom scrollbar & smooth behavior */
         html {
           scroll-behavior: smooth;
@@ -112,7 +177,7 @@ const MCAyubzPortfolio = () => {
       <Hero />
 
       {/* Corporate Marquee */}
-      <section className="py-16 bg-[#0e0e0e] overflow-hidden border-y border-white/5">
+      <section className="corporate-marquee py-16 bg-[#0e0e0e] overflow-hidden border-y border-white/5">
         <div className="max-w-[1280px] mx-auto px-8 mb-8">
           <p className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#605f5e] uppercase text-center">
             Trusted by Industry Leaders
@@ -132,7 +197,7 @@ const MCAyubzPortfolio = () => {
       {/* About Section */}
       <section id="about" className="py-32 relative bg-[#F2F9FB]">
         <div className="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
-          <div className="order-2 md:order-1">
+          <div className="order-2 md:order-1 animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
             <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#00daf3] mb-4 uppercase">
               The Philosophy
             </h2>
@@ -142,29 +207,19 @@ const MCAyubzPortfolio = () => {
             <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] mb-8">
               MC Ayubz isn't just a voice on a microphone; he's a master of atmosphere. With a unique ability to command corporate boardrooms with precision and ignite wedding dance floors with infectious energy, he represents the pinnacle of "Hybrid Entertainment."
             </p>
-            <div className="flex flex-wrap gap-4 mb-8">
-              <span className="px-6 py-2 rounded-full border border-[#00daf3] text-[#00daf3] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold">
-                CORPORATE CLASS
-              </span>
-              <span className="px-6 py-2 rounded-full border border-[#ffe16d] text-[#ffe16d] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold">
-                CULTURAL FLUENCY
-              </span>
-              <span className="px-6 py-2 rounded-full border border-[#00daf3] text-[#00daf3] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold">
-                VIBRANT ENERGY
-              </span>
-            </div>
+
             <div className="grid grid-cols-2 gap-6">
-              <div className="p-6 bg-[#A7AAAD] rounded-xl">
+              <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.4s' }}>
                 <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">500+</span>
                 <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Events Orchestrated</span>
               </div>
-              <div className="p-6 bg-[#A7AAAD] rounded-xl">
+              <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.5s' }}>
                 <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">12</span>
                 <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Global Brands</span>
               </div>
             </div>
           </div>
-          <div className="order-1 md:order-2 relative">
+          <div className="order-1 md:order-2 relative animate-fade-in-up" style={{ animationDelay: '0.3s' }}>
             <div className="aspect-square rounded-3xl overflow-hidden glass-card p-4">
               <img
                 className="w-full h-full object-cover rounded-2xl"
@@ -172,7 +227,7 @@ const MCAyubzPortfolio = () => {
                 src={imageSrc}
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px]">
+            <div className="absolute -bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px] animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <span className="material-symbols-outlined text-[#ffe16d] text-4xl mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
               <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#e5e2e1] italic">"Ayubz brought a level of sophistication we hadn't seen before."</p>
               <p className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold mt-2 text-[#ffe16d]">— Event Director, Safaricom</p>

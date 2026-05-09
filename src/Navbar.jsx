@@ -3,6 +3,15 @@ import React, { useState } from 'react';
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  // Custom hamburger icon component with 3 lines (middle one half-width)
+  const HamburgerIcon = () => (
+    <div className="relative w-6 h-6 flex flex-col justify-center gap-1.5">
+      <div className="w-6 h-0.5 bg-[#5d5a5a] rounded transition-all duration-300"></div>
+      <div className="w-3 h-0.5 bg-[#5d5a5a] rounded transition-all duration-300"></div>
+      <div className="w-6 h-0.5 bg-[#5d5a5a] rounded transition-all duration-300"></div>
+    </div>
+  );
+
   return (
     <>
       <nav className="fixed top-0 w-full z-50 bg-[#F2F9FB] h-20">
@@ -29,20 +38,49 @@ const Navbar = () => {
 
           {/* Mobile Menu Button */}
           <button
-            className="md:hidden text-[#5d5a5a]"
+            className="md:hidden text-[#5d5a5a] cursor-pointer"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
           >
-            <span className="material-symbols-outlined text-3xl">menu</span>
+            <HamburgerIcon />
           </button>
         </div>
 
-        {/* Mobile Dropdown Menu */}
+        {/* Mobile Slide-in Menu from Left */}
         {mobileMenuOpen && (
-          <div className="md:hidden bg-[#201f1f]/95 backdrop-blur-xl border-b border-white/10 py-4 px-8 flex flex-col gap-4">
-            <a href="#about" className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d]" onClick={() => setMobileMenuOpen(false)}>About</a>
-            <a href="#services" className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d]" onClick={() => setMobileMenuOpen(false)}>Services</a>
-            <a href="#gallery" className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d]" onClick={() => setMobileMenuOpen(false)}>Gallery</a>
-            <button className="bg-[#ffe16d] text-[#221b00] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-3 px-6 rounded-full w-full">Book Now</button>
+          <div className="fixed inset-0 md:hidden">
+            {/* Backdrop */}
+            <div
+              className="absolute inset-0 bg-black/50"
+              onClick={() => setMobileMenuOpen(false)}
+            ></div>
+
+            {/* Slide-in Menu from Left */}
+            <div className="absolute left-0 top-0 bottom-0 w-64 bg-[#201f1f]/95 backdrop-blur-xl border-l border-white/10 py-4 px-8 flex flex-col gap-4 animate-slide-in-left pt-24">
+              <a
+                href="#about"
+                className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d] transition-colors py-3"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                About
+              </a>
+              <a
+                href="#services"
+                className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d] transition-colors py-3"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Services
+              </a>
+              <a
+                href="#gallery"
+                className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] hover:text-[#ffe16d] transition-colors py-3"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Gallery
+              </a>
+              <button className="bg-[#ffe16d] text-[#221b00] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-3 px-6 rounded-full w-full mt-4">
+                Book Now
+              </button>
+            </div>
           </div>
         )}
       </nav>
