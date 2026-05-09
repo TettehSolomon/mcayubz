@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import imageSrc from './assets/mc_1.jpg';
+import myVideo from './assets/vid2.mp4';
 
 const MCAyubzPortfolio = () => {
   // State for mobile menu toggle
@@ -198,13 +199,13 @@ const MCAyubzPortfolio = () => {
       <section id="about" className="py-32 relative bg-[#F2F9FB]">
         <div className="max-w-[1280px] mx-auto px-8 grid md:grid-cols-2 gap-20 items-center">
           <div className="order-2 md:order-1 animate-slide-in-left" style={{ animationDelay: '0.2s' }}>
-            <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#00daf3] mb-4 uppercase">
+            <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">
               The Philosophy
             </h2>
-            <h3 className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#5d5a5a] mb-8">
+            <h3 className="font-['Montserrat'] text-[28px] md:text-[48px] leading-[1.2] font-bold text-[#5d5a5a] mb-8">
               Bridging Two Worlds: Clean Entertainment &amp; Hybrid Hosting.
             </h3>
-            <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] mb-8">
+            <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] text-justify mb-8">
               MC Ayubz isn't just a voice on a microphone; he's a master of atmosphere. With a unique ability to command corporate boardrooms with precision and ignite wedding dance floors with infectious energy, he represents the pinnacle of "Hybrid Entertainment."
             </p>
 
@@ -227,7 +228,7 @@ const MCAyubzPortfolio = () => {
                 src={imageSrc}
               />
             </div>
-            <div className="absolute -bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px] animate-fade-in" style={{ animationDelay: '0.6s' }}>
+            <div className="absolute -bottom-16 md:-bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px] animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <span className="material-symbols-outlined text-[#ffe16d] text-4xl mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
               <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#e5e2e1] italic">"Ayubz brought a level of sophistication we hadn't seen before."</p>
               <p className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold mt-2 text-[#ffe16d]">— Event Director, Safaricom</p>
@@ -272,8 +273,16 @@ const MCAyubzPortfolio = () => {
               <span className="material-symbols-outlined text-[#ffe16d] text-5xl mb-8" style={{ fontVariationSettings: "'FILL' 1" }}>mic_external_on</span>
               <h4 className="font-['Montserrat'] text-[32px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Media Hosting</h4>
               <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#d0c6ab] mb-6">Vibrant and improv-ready for TV, radio, and digital streams. Engaging interviews and dynamic live broadcast management.</p>
-              <div className="aspect-video rounded-xl bg-[#131313]/50 border border-white/10 flex items-center justify-center">
-                <span className="material-symbols-outlined text-4xl text-[#474746]">play_circle</span>
+              <div className="aspect-video rounded-xl bg-[#131313]/50 border border-white/10 overflow-hidden flex items-center justify-center">
+                <video
+                  className="w-full h-full object-cover"
+                  controls
+                  autoPlay
+                  loop
+                >
+                  <source src={myVideo} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
               </div>
             </div>
             {/* Specialized Events */}
