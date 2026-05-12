@@ -177,7 +177,7 @@ const MCAyubzPortfolio = () => {
 
       <Hero />
 
-      {/* Corporate Marquee */}
+      {/* Corporate Marquee 
       <section className="corporate-marquee py-16 bg-[#0e0e0e] overflow-hidden border-y border-white/5">
         <div className="max-w-[1280px] mx-auto px-8 mb-8">
           <p className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#605f5e] uppercase text-center">
@@ -194,6 +194,7 @@ const MCAyubzPortfolio = () => {
           ))}
         </div>
       </section>
+        */}
 
       {/* About Section */}
       <section id="about" className="py-32 relative bg-[#F2F9FB]">
@@ -202,7 +203,7 @@ const MCAyubzPortfolio = () => {
             <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">
               The Philosophy
             </h2>
-            <h3 className="font-['Montserrat'] text-[28px] md:text-[48px] leading-[1.2] font-bold text-[#5d5a5a] mb-8">
+            <h3 className="font-['Montserrat'] text-[24px] md:text-[48px] leading-[1.2] font-bold text-[#5d5a5a] mb-8">
               Bridging Two Worlds: Clean Entertainment &amp; Hybrid Hosting.
             </h3>
             <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] text-justify mb-8">
@@ -211,12 +212,12 @@ const MCAyubzPortfolio = () => {
 
             <div className="grid grid-cols-2 gap-6">
               <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.4s' }}>
-                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">500+</span>
-                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Events Orchestrated</span>
+                <span className="font-['Montserrat'] text-[40px] leading-[1.2] font-bold text-[white] block mb-2">500+</span>
+                <span className="font-['Montserrat'] text-[15px] tracking-[0.1em] font-semibold text-[white]">Events Anchored</span>
               </div>
               <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.5s' }}>
-                <span className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[white] block mb-2">12</span>
-                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[white]">Global Brands</span>
+                <span className="font-['Montserrat'] text-[40px] leading-[1.2] font-bold text-[white] block mb-2">20+</span>
+                <span className="font-['Montserrat'] text-[15px] tracking-[0.1em] font-semibold text-[white]">Global Brands</span>
               </div>
             </div>
           </div>
@@ -238,7 +239,7 @@ const MCAyubzPortfolio = () => {
       </section>
 
       {/* Services Bento Grid */}
-      <section id="services" className="py-32 bg-[#0e0e0e]">
+      <section id="services" className="py-32 bg-[#A7AAAD]">
         <div className="max-w-[1280px] mx-auto px-8">
           <div className="mb-16 text-center">
             <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#ffe16d] mb-4 uppercase">Service Excellence</h2>
@@ -436,6 +437,7 @@ const MCAyubzPortfolio = () => {
         </div>
       </section>
 
+     
       {/* Footer */}
       <footer className="bg-[#0e0e0e] border-t border-white/5 w-full py-16 px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-[1280px] mx-auto">
