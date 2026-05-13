@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import myVideo from './assets/vid2.mp4';
+import myVideo from '../assets/vid2.mp4';
 
 const Services = () => {
     return (
@@ -55,26 +55,39 @@ const Services = () => {
                     {/* Specialized Events */}
                     <div className="md:col-span-7 glass-card rounded-3xl p-8 bg-gradient-to-br from-[#ffe16d]/10 to-transparent group">
                         <h4 className="font-['Montserrat'] text-[25px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Specialized Events</h4>
-                        <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#d0c6ab] text-justify mb-6">Concerts, festivals, business seminars, church services and corporate events. Where high production value meets raw stage presence.</p>
-                        <div className="grid grid-cols-2 gap-4">
-                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CONCERTS</span>
+                        <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] mb-8 text-justify">From the corporate stage to the cultural aisle — weddings, traditional weddings, birthdays, seminars and galas. Every room gets the same energy.</p>
+                         <div className="grid grid-cols-2 gap-4">
+                            <div className="p-3 rounded-xl bg-white/5 border border-white/5">
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">GRAND OPENINGS</span>
+                            </div>
+                            <div className="p-2 rounded-xl bg-white/5 border border-white/5">
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">ANNIVERSARY CELEBRATION</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">FESTIVALS</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">BUSINESS SEMINARS</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">SEMINARS</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CHURCH EVENTS</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CHURCH SERVICES</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CORPORATE EVENTS</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CORPORATE EVENTS</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">BIRTHDAY PARTIES</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">BIRTHDAY PARTIES</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">TRADITIONAL WEDDINGS</span>
                             </div>
+                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">ENGAGEMENT CEREMONIES</span>
+                            </div>
+                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">WHITE WEDDINGS</span>
+                            </div>
+                            <div className="p-4 rounded-xl bg-white/5 border border-white/5">
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">PRODUCT LAUNCHES</span>
+                            </div>
+
                         </div>
                     </div>
                 </div>

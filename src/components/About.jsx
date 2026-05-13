@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import imageSrc from './assets/mc_1.jpg';
+import imageSrc from '../assets/mc_1.jpg';
 
 const About = () => {
     return (

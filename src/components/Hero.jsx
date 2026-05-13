@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bgHero from "./assets/bg_hero.jpg";
+import bgHero from "../assets/bg_hero.jpg";
 
 const Hero = () => {
   return (
