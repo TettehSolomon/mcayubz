@@ -38,7 +38,7 @@ const About = () => {
             <div className="absolute -bottom-16 md:-bottom-8 -left-8 glass-card p-6 rounded-2xl max-w-[240px] animate-fade-in" style={{ animationDelay: '0.6s' }}>
               <span className="material-symbols-outlined text-[#ffe16d] text-4xl mb-4" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
               <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#e5e2e1] italic">"Ayubz brought a level of sophistication we hadn't seen before."</p>
-              <p className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold mt-2 text-[#ffe16d]">— Founder TMN,<br/> Mary Damilola</p>
+              <p className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold mt-2 text-[#ffe16d]">— Founder of TMN,<br/> Mary Damilola</p>
             </div>
           </div>
         </div>
