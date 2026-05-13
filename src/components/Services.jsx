@@ -53,10 +53,10 @@ const Services = () => {
                         </div>
                     </div>
                     {/* Specialized Events */}
-                    <div className="md:col-span-7 glass-card rounded-3xl p-8 bg-gradient-to-br from-[#ffe16d]/10 to-transparent group">
+                    <div className="md:col-span-7 glass-card rounded-3xl p-5 md:p-8 bg-gradient-to-br from-[#ffe16d]/10 to-transparent group">
                         <h4 className="font-['Montserrat'] text-[25px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Specialized Events</h4>
-                        <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] mb-8 text-justify">From the corporate stage to the cultural aisle — weddings, traditional weddings, birthdays, seminars and galas. Every room gets the same energy.</p>
-                         <div className="grid grid-cols-2 gap-4">
+                        <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] mb-8 text-justify">From the corporate stage to the cultural aisle to traditional weddings, birthdays, seminars and galas. Every room gets the same energy.</p>
+                         <div className="grid grid-cols-2 gap-4 text-center md:text-left">
                             <div className="p-3 rounded-xl bg-white/5 border border-white/5">
                                 <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">GRAND OPENINGS</span>
                             </div>
