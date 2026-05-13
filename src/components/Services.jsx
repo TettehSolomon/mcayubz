@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import myVideo from '../assets/vid2.mp4';
+import myVideo from '../../public/vid2.mp4';
 
 const Services = () => {
     return (

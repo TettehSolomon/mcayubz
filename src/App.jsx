@@ -7,7 +7,7 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
-import myVideo from './assets/vid2.mp4';
+import myVideo from '../public/vid2.mp4';
 
 const MCAyubzPortfolio = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);

@@ -15,29 +15,29 @@ const Gallery = () => {
                 </div>
                 <div className="columns-1 md:columns-2 lg:columns-3 gap-6 space-y-6">
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_1" src="../src/assets/img1.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_1" src="../public/img1.jpg" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_2" src="../src/assets/img2.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_2" src="../public/img2.jpg" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_3" src="../src/assets/img3.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_3" src="../public/img3.jpg" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_4" src="../src/assets/img4.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_4" src="../public/img4.jpg" />
                     </div>
                     
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_6" src="../src/assets/img6.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_6" src="../public/img6.jpg" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_7" src="../src/assets/img7.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_7" src="../public/img7.jpg" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_5" src="../src/assets/img5.png" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_5" src="../public/img5.png" />
                     </div>
                     <div className="rounded-2xl overflow-hidden glass-card">
-                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_5" src="../src/assets/img8.jpg" />
+                        <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_5" src="../public/img8.jpg" />
                     </div>
                 </div>
             </div>
