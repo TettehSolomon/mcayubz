@@ -7,7 +7,7 @@ const Services = () => {
             <div className="max-w-[1280px] mx-auto px-8">
                 <div className="mb-16 text-center">
                     <h2 className="font-['Montserrat'] text-[14px] md:text-[16px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">Service Excellence</h2>
-                    <h3 className="font-['Montserrat'] text-[42px] md:text-[55px] leading-[1.2] font-bold text-white">Curated Experiences</h3>
+                    <h3 className="font-['Montserrat'] text-[40px] md:text-[55px] leading-[1.2] font-bold text-white">Curated Experiences</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
                     {/* Corporate Galas */}
