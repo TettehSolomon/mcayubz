@@ -6,17 +6,17 @@ const Services = () => {
         <section id="services" className="py-32 bg-[#201f1f]">
             <div className="max-w-[1280px] mx-auto px-8">
                 <div className="mb-16 text-center">
-                    <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">Service Excellence</h2>
-                    <h3 className="font-['Montserrat'] text-[42px] leading-[1.2] font-bold text-white">Curated Experiences</h3>
+                    <h2 className="font-['Montserrat'] text-[14px] md:text-[16px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">Service Excellence</h2>
+                    <h3 className="font-['Montserrat'] text-[42px] md:text-[55px] leading-[1.2] font-bold text-white">Curated Experiences</h3>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
                     {/* Corporate Galas */}
-                    <div className="md:col-span-8 glass-card rounded-3xl p-8 relative overflow-hidden group">
+                    <div className="md:col-span-8 glass-card rounded-3xl p-8 md:p-16 relative overflow-hidden group">
                         <div className="absolute top-0 right-0 w-64 h-64 bg-[#ffe16d]/5 rounded-full blur-3xl -mr-20 -mt-20 group-hover:bg-[#ffe16d]/10 transition-all"></div>
                         <span className="material-symbols-outlined text-[#ffe16d] text-5xl mb-5" style={{ fontVariationSettings: "'FILL' 1" }}>business_center</span>
-                        <h4 className="font-['Montserrat'] text-[25px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Corporate Galas</h4>
-                        <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] mb-8 max-w-lg text-justify">Professional, precise and perfectly paced. Elevate your wedding parties, birthdays, award night, church seminars, product launch or AGM with an MC who understands corporate nuance and brand integrity.</p>
-                        <ul className="space-y-3 font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab]">
+                        <h4 className="font-['Montserrat'] text-[25px] md:text-[36px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Corporate Galas</h4>
+                        <p className="font-['Inter'] text-[15px] md:text-[16px] leading-[1.6] text-[#d0c6ab] mb-8 max-w-lg text-justify">Professional, precise and perfectly paced. Elevate your wedding parties, birthdays, award night, church seminars, product launch or AGM with an MC who understands corporate nuance and brand integrity.</p>
+                        <ul className="space-y-3 font-['Inter'] text-[15px] md:text-[16px] leading-[1.6] text-[#d0c6ab]">
                             <li className="flex items-center gap-3"><span className="material-symbols-outlined text-[#ffe16d] text-xl">check_circle</span> Formal Protocol Adherence</li>
                             <li className="flex items-center gap-3"><span className="material-symbols-outlined text-[#ffe16d] text-xl">check_circle</span> Productive Audience Engagement</li>
                             <li className="flex items-center gap-3"><span className="material-symbols-outlined text-[#ffe16d] text-xl">check_circle</span> Seamless Transition Management</li>
@@ -24,11 +24,11 @@ const Services = () => {
                     </div>
 
                     {/* Elite Weddings */}
-                    <div className="md:col-span-4 glass-card rounded-3xl p-8 flex flex-col justify-between group">
+                    <div className="md:col-span-4 glass-card rounded-3xl p-8 md:p-12 flex flex-col justify-between group">
                         <div>
                             <span className="material-symbols-outlined text-[#ffe16d] text-5xl mb-5" style={{ fontVariationSettings: "'FILL' 1" }}>favorite</span>
-                            <h4 className="font-['Montserrat'] text-[25px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Elite Weddings</h4>
-                            <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] text-justify">High-energy, cultural mastery, and vibrant celebration. From traditional rites to modern receptions, we keep the heart of your union beating.</p>
+                            <h4 className="font-['Montserrat'] text-[25px] md:text-[36px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Elite Weddings</h4>
+                            <p className="font-['Inter'] text-[15px] md:text-[16px] leading-[1.6] text-[#d0c6ab] text-justify">High-energy, cultural mastery, and vibrant celebration. From traditional rites to modern receptions, we keep the heart of your union beating.</p>
                         </div>
                         <div className="mt-8 pt-8 border-t border-white/10">
                             <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d] uppercase">Energy Level: ELECTRIC</span>
@@ -36,10 +36,10 @@ const Services = () => {
                     </div>
                     
                     {/* Media Hosting */}
-                    <div className="md:col-span-5 glass-card rounded-3xl p-8 group">
+                    <div className="md:col-span-5 glass-card rounded-3xl p-8 md:p-12 group">
                         <span className="material-symbols-outlined text-[#ffe16d] text-5xl mb-8" style={{ fontVariationSettings: "'FILL' 1" }}>mic_external_on</span>
-                        <h4 className="font-['Montserrat'] text-[25px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Event Hosting</h4>
-                        <p className="font-['Inter'] text-[15px] leading-[1.6] text-[#d0c6ab] mb-6">Vibrant and ready to host engaging events and dynamic live broadcast management.</p>
+                        <h4 className="font-['Montserrat'] text-[25px] md:text-[36px] leading-[1.3] font-bold text-[#e5e2e1] mb-4">Event Hosting</h4>
+                        <p className="font-['Inter'] text-[15px] md:text-[16px] leading-[1.6] text-[#d0c6ab] mb-6">Vibrant and ready to host engaging events and dynamic live broadcast management.</p>
                         <div className="aspect-video rounded-xl bg-[#131313]/50 border border-white/10 overflow-hidden flex items-center justify-center">
                             <video
                                 className="w-full h-full object-cover"
