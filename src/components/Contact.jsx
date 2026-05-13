@@ -8,8 +8,8 @@ const Contact = () => {
             <div className="max-w-[1280px] mx-auto px-8">
                 <div className="max-w-4xl mx-auto glass-card rounded-[40px] p-8 md:p-16">
                     <div className="text-center mb-16">
-                        <h3 className="font-['Montserrat'] text-[35px] md:text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-4">Ready to Elevate Your Event?</h3>
-                        <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab]">Let's create something unforgettable together.</p>
+                        <h3 className="font-['Montserrat'] text-[32px] md:text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-4">Ready to Elevate Your Event?</h3>
+                        <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] hidden md:block">Let's create something unforgettable together.</p>
                     </div>
                     <form action="https://formspree.io/f/xjglzdkv" method="POST" className="grid md:grid-cols-2 gap-8">
                         <div className="space-y-6">
@@ -20,8 +20,8 @@ const Contact = () => {
                             <div className="flex flex-col gap-2">
                                 <label className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab]">EVENT TYPE</label>
                                 <select name="event_type" className="bg-[#2a2a2a] border-none rounded-xl p-4 text-[#e5e2e1] focus:ring-2 focus:ring-[#ffe16d] transition-all outline-none">
+                                    <option>Weddings</option>
                                     <option>Corporate Gala</option>
-                                    <option>Elite Wedding</option>
                                     <option>Media/Hosting</option>
                                     <option>Church Event</option>
                                     <option>Birthday Party</option>

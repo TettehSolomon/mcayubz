@@ -23,12 +23,25 @@ const Hero = () => {
           THE HYBRID MC🎙️ <span className="text-[#e5e2e1]"></span> <br /><span className="text-[#e9c400]">For All Events</span>
         </p>
         <div className="flex flex-row md:flex-row gap-6 justify-center items-center animate-fade-in-up mb-8 md:mb-12" style={{ animationDelay: '0.6s' }}>
-          <button className="bg-[#d0c6ab] text-[#221b00] font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:brightness-110 transition-all text-glow">
-            Book Me
-          </button>
-          <button className="bg-[#5d5a5a] text-white font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:bg-[white]/10 transition-all">
-            Call Now
-          </button>
+          <a
+            href="https://wa.link/yohktp"
+            target="_blank"
+            rel="noopener noreferrer"
+            className='cursor-pointer'
+          >
+            <button className="bg-[#d0c6ab] text-[#221b00] font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:brightness-110 transition-all text-glow">
+              Book Me
+            </button>
+          </a>
+
+          
+            <a
+              href="tel:+2348067306770"
+              className='cursor-pointer'>
+              <button className="bg-[#5d5a5a] text-white font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:bg-[white]/10 transition-all">
+                Call Now
+              </button>
+            </a>
         </div>
 
         <button

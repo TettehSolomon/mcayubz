@@ -31,9 +31,13 @@ const Navbar = () => {
             <a href="#gallery" className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#5d5a5a] hover:text-[#ffe16d] transition-colors duration-300">
               Gallery
             </a>
+            <a
+              href="tel:+2348067306770"
+              className='cursor-pointer'>
             <button className="ml-4 bg-[#5d5a5a] text-[white] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-3 px-8 rounded-full hover:brightness-110 transition-all active:scale-95 shadow-[0_0_15px_rgba(255,225,109,0.4)]">
               Book Now
             </button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,9 +81,12 @@ const Navbar = () => {
               >
                 Gallery
               </a>
+              <a
+                href="tel:+2348067306770">
               <button className="bg-[#ffe16d] text-[#221b00] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-3 px-6 rounded-full w-full mt-4">
-                Book Now
+                Book Me
               </button>
+              </a>
             </div>
           </div>
         )}
