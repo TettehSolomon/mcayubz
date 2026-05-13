@@ -7,9 +7,9 @@ const Gallery = () => {
                 <div className="mb-16 flex justify-between items-end">
                     <div>
                         <h2 className="font-['Montserrat'] text-[14px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">Visual Journey</h2>
-                        <h3 className="font-['Montserrat'] text-[48px] leading-[1.2] font-bold text-[#5d5a5a]">The Stage Presence</h3>
+                        <h3 className="font-['Montserrat'] text-[40px] md:text-[48px] leading-[1.2] font-bold text-[#5d5a5a]">The Stage Presence</h3>
                     </div>
-                    <button className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] flex items-center gap-2 group">
+                    <button className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#d0c6ab] flex items-center gap-2 group hidden md:flex">
                         VIEW ALL MOMENTS <span className="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
                     </button>
                 </div>

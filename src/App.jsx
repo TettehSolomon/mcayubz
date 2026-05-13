@@ -144,12 +144,11 @@ const MCAyubzPortfolio = () => {
 
      
       {/* Footer */}
-      <footer className="bg-[#0e0e0e] border-t border-white/5 w-full py-16 px-8">
+      <footer className="bg-[#0e0e0e] border-t border-white/5 w-full py-8 px-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6 max-w-[1280px] mx-auto">
           <div className="text-center md:text-left">
             <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d] block mb-2 tracking-widest">MC AYUBZ</span>
-            <p className="font-['Inter'] text-[16px] leading-[1.6] text-[#474746] text-sm max-w-[200px]">The premier choice for global events and elite celebrations.</p>
-          </div>
+              </div>
           <div className="flex gap-6">
             <a href="#" className="text-[#474746] hover:text-[#00daf3] transition-colors font-['Inter'] text-[16px] leading-[1.6] hover:scale-105 transition-transform">Instagram</a>
             <a href="#" className="text-[#474746] hover:text-[#00daf3] transition-colors font-['Inter'] text-[16px] leading-[1.6] hover:scale-105 transition-transform">LinkedIn</a>
