@@ -14,9 +14,9 @@ const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 w-full z-50 bg-[#F2F9FB] h-20">
+      <nav className="fixed top-0 w-full z-50 bg-[#F2F9FB] h-15 md:h-20">
         <div className="flex justify-between items-center max-w-[1280px] mx-auto px-8 h-full">
-          <span className="font-['Montserrat'] text-[32px] font-black tracking-tighter text-[#5a5a5d]">
+          <span className="font-['Montserrat'] text-[26px] md:text-[32px] font-black tracking-tighter text-[#5a5a5d]">
             MC AYUBZ
           </span>
 
