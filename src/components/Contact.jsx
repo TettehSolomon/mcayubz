@@ -49,7 +49,7 @@ const Contact = () => {
                             </button>
                         </div>
                     </form>
-                    <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-12 border-t border-white/5 pt-12">
+                    <div className="mt-16 flex flex-col md:flex-row justify-center items-center gap-12 border-t border-white/5 pt-12 hidden md:flex">
                         <a href="https://wa.link/yohktp" className="flex items-center gap-3 text-[#d0c6ab] hover:text-[#ffe16d] transition-colors">
                             <span className="material-symbols-outlined">chat</span>
                             <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold">WhatsApp Chat</span>
