@@ -26,7 +26,7 @@ const Gallery = () => {
                     <div className="rounded-2xl overflow-hidden glass-card">
                         <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_4" src="/img4.jpg" />
                     </div>
-                    
+
                     <div className="rounded-2xl overflow-hidden glass-card">
                         <img className="w-full hover:scale-105 transition-transform duration-500" alt="mc_ayubz_6" src="/img6.jpg" />
                     </div>

@@ -34,14 +34,14 @@ const Hero = () => {
             </button>
           </a>
 
-          
-            <a
-              href="tel:+2348067306770"
-              className='cursor-pointer'>
-              <button className="bg-[#5d5a5a] text-white font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:bg-[white]/10 transition-all">
-                Call Now
-              </button>
-            </a>
+
+          <a
+            href="tel:+2348067306770"
+            className='cursor-pointer'>
+            <button className="bg-[#5d5a5a] text-white font-['Montserrat'] text-[13px] tracking-[0.1em] font-semibold py-3 md:py-5 md:px-12 px-8 rounded-full hover:bg-[white]/10 transition-all">
+              Call Now
+            </button>
+          </a>
         </div>
 
         <button

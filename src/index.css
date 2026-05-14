@@ -2,128 +2,201 @@
 @import "tailwindcss";
 
 
-        /* Custom color classes exactly matching original palette */
-        .bg-background { background-color: #131313; }
-        .bg-primary-fixed { background-color: #ffe16d; }
-        .bg-primary-fixed-dim { background-color: #e9c400; }
-        .bg-secondary-fixed-dim { background-color: #00daf3; }
-        .bg-surface-container-lowest { background-color: #0e0e0e; }
-        .bg-surface-container-low { background-color: #1c1b1b; }
-        .bg-surface-container { background-color: #201f1f; }
-        .bg-surface-container-high { background-color: #2a2a2a; }
-        .bg-surface-container-highest { background-color: #353534; }
-        .bg-surface-variant { background-color: #353534; }
-        .bg-on-tertiary-fixed-variant { background-color: #474746; }
-        
-        .text-primary-fixed { color: #ffe16d; }
-        .text-primary-fixed-dim { color: #e9c400; }
-        .text-secondary-fixed-dim { color: #00daf3; }
-        .text-on-primary-fixed { color: #221b00; }
-        .text-on-surface { color: #e5e2e1; }
-        .text-on-surface-variant { color: #d0c6ab; }
-        .text-on-tertiary-container { color: #605f5e; }
-        .text-on-tertiary-fixed-variant { color: #474746; }
-        
-        .border-secondary-fixed-dim { border-color: #00daf3; }
-        .border-primary-fixed { border-color: #ffe16d; }
-        
-        /* Glass card styling */
-        .glass-card {
-          background: rgba(53, 53, 52, 0.4);
-          backdrop-filter: blur(20px);
-          border: 1px solid rgba(255, 255, 255, 0.1);
-          transition: all 0.3s ease-in-out;
-        }
-        .glass-card:hover {
-          border-color: rgba(255, 225, 109, 0.5);
-          transform: scale(1.02);
-        }
-        
-        /* Marquee animation */
-        .marquee-track {
-          display: flex;
-          width: calc(250px * 10);
-          animation: scroll 30s linear infinite;
-        }
-        @keyframes scroll {
-          0% { transform: translateX(0); }
-          100% { transform: translateX(calc(-250px * 5)); }
-        }
-        
-        /* Text glow */
-        .text-glow {
-          text-shadow: 0 0 20px rgba(255, 225, 109, 0.3);
-        }
-        
-        /* Fade in and slide up animation */
-        @keyframes fadeInUp {
-          from {
-            opacity: 0;
-            transform: translateY(30px);
-          }
-          to {
-            opacity: 1;
-            transform: translateY(0);
-          }
-        }
-        
-        .animate-fade-in-up {
-          animation: fadeInUp 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        
-        /* Slide in from right animation */
-        @keyframes slideInRight {
-          from {
-            transform: translateX(100%);
-            opacity: 0;
-          }
-          to {
-            transform: translateX(0);
-            opacity: 1;
-          }
-        }
-        
-        .animate-slide-in-right {
-          animation: slideInRight 0.3s ease-out forwards;
-        }
-        
-        /* Fade in animation */
-        @keyframes fadeIn {
-          from {
-            opacity: 0;
-          }
-          to {
-            opacity: 1;
-          }
-        }
-        
-        .animate-fade-in {
-          animation: fadeIn 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        
-        /* Slide in from left animation */
-        @keyframes slideInLeft {
-          from {
-            transform: translateX(-50px);
-            opacity: 0;
-          }
-          to {
-            transform: translateX(0);
-            opacity: 1;
-          }
-        }
-        
-        .animate-slide-in-left {
-          animation: slideInLeft 0.8s ease-out forwards;
-          opacity: 0;
-        }
-        
-        /* Custom scrollbar & smooth behavior */
-        html {
-          scroll-behavior: smooth;
-        }
-        
-        /* Additional hover & transitions */
-        .transition-all-300 { transition: all 0.3s ease-in-out; }
+/* Custom color classes exactly matching original palette */
+.bg-background {
+  background-color: #131313;
+}
+
+.bg-primary-fixed {
+  background-color: #ffe16d;
+}
+
+.bg-primary-fixed-dim {
+  background-color: #e9c400;
+}
+
+.bg-secondary-fixed-dim {
+  background-color: #00daf3;
+}
+
+.bg-surface-container-lowest {
+  background-color: #0e0e0e;
+}
+
+.bg-surface-container-low {
+  background-color: #1c1b1b;
+}
+
+.bg-surface-container {
+  background-color: #201f1f;
+}
+
+.bg-surface-container-high {
+  background-color: #2a2a2a;
+}
+
+.bg-surface-container-highest {
+  background-color: #353534;
+}
+
+.bg-surface-variant {
+  background-color: #353534;
+}
+
+.bg-on-tertiary-fixed-variant {
+  background-color: #474746;
+}
+
+.text-primary-fixed {
+  color: #ffe16d;
+}
+
+.text-primary-fixed-dim {
+  color: #e9c400;
+}
+
+.text-secondary-fixed-dim {
+  color: #00daf3;
+}
+
+.text-on-primary-fixed {
+  color: #221b00;
+}
+
+.text-on-surface {
+  color: #e5e2e1;
+}
+
+.text-on-surface-variant {
+  color: #d0c6ab;
+}
+
+.text-on-tertiary-container {
+  color: #605f5e;
+}
+
+.text-on-tertiary-fixed-variant {
+  color: #474746;
+}
+
+.border-secondary-fixed-dim {
+  border-color: #00daf3;
+}
+
+.border-primary-fixed {
+  border-color: #ffe16d;
+}
+
+/* Glass card styling */
+.glass-card {
+  background: rgba(53, 53, 52, 0.4);
+  backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+.glass-card:hover {
+  border-color: rgba(255, 225, 109, 0.5);
+  transform: scale(1.02);
+}
+
+/* Marquee animation */
+.marquee-track {
+  display: flex;
+  width: calc(250px * 10);
+  animation: scroll 30s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+
+/* Text glow */
+.text-glow {
+  text-shadow: 0 0 20px rgba(255, 225, 109, 0.3);
+}
+
+/* Fade in and slide up animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fadeInUp 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Slide in from right animation */
+@keyframes slideInRight {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-right {
+  animation: slideInRight 0.3s ease-out forwards;
+}
+
+/* Fade in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Slide in from left animation */
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 0.8s ease-out forwards;
+  opacity: 0;
+}
+
+/* Custom scrollbar & smooth behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Additional hover & transitions */
+.transition-all-300 {
+  transition: all 0.3s ease-in-out;
+}
