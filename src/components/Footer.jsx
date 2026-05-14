@@ -8,7 +8,7 @@ const Footer = () => {
                     <span className="font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d] block mb-2 tracking-widest">MC AYUBZ</span>
                 </div>
                 
-                <p className="text-[#ffe16d] font-['Inter'] text-[14px] leading-[1.6]">© 2026 MC AYUBZ. ALL RIGHTS RESERVED.</p>
+                <p className="text-[#ffe16d] font-['Inter'] text-[11px] md:text-[14px] leading-[1.6]">© 2026 MC AYUBZ. ALL RIGHTS RESERVED.</p>
             </div>
         </footer>
     );

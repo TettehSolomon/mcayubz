@@ -8,7 +8,7 @@ const Contact = () => {
             <div className="max-w-[1280px] mx-auto px-3">
                 <div className="max-w-4xl mx-auto glass-card rounded-[40px] p-4 md:p-16">
                     <div className="text-center mb-16">
-                        <h3 className="font-['Montserrat'] text-[32px] md:text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-4">Ready to Elevate Your Event?</h3>
+                        <h3 className="font-['Montserrat'] text-[30px] md:text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-4">Ready to Elevate Your Event?</h3>
                         <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#d0c6ab] hidden md:block">Let's create something unforgettable together.</p>
                     </div>
                     <form action="https://formspree.io/f/xjglzdkv" method="POST" className="grid md:grid-cols-2 gap-8">
@@ -44,7 +44,7 @@ const Contact = () => {
                                     className="bg-[#2a2a2a] border-none rounded-xl p-4 text-[#e5e2e1] focus:ring-2 focus:ring-[#ffe16d] transition-all outline-none h-32 resize-vertical"
                                     placeholder="Tell us about your event..."
                                 ></textarea>   </div>
-                            <button type="submit" className="w-full bg-[#ffe16d] text-[#221b00] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-5 rounded-xl hover:brightness-110 transition-all text-glow cursor-pointer">
+                            <button type="submit" className="w-full bg-[#ffe16d] text-[#221b00] font-['Montserrat'] text-[14px] tracking-[0.1em] font-semibold py-3 rounded-xl hover:brightness-110 transition-all text-glow cursor-pointer">
                                 SEND BOOKING INQUIRY
                             </button>
                         </div>

@@ -3,8 +3,8 @@ import myVideo from '../../public/vid2.mp4';
 
 const Services = () => {
     return (
-        <section id="services" className="py-32 bg-[#201f1f]">
-            <div className="max-w-[1280px] mx-auto px-8">
+        <section id="services" className="py-30 bg-[#201f1f]">
+            <div className="max-w-[1280px] mx-auto px-4">
                 <div className="mb-16 text-center">
                     <h2 className="font-['Montserrat'] text-[14px] md:text-[16px] tracking-[0.2em] font-semibold text-[#d0c6ab] mb-4 uppercase">Service Excellence</h2>
                     <h3 className="font-['Montserrat'] text-[40px] md:text-[55px] leading-[1.2] font-bold text-white">Curated Experiences</h3>
