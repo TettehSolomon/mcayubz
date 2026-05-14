@@ -3,9 +3,9 @@ import React, { useEffect } from 'react';
 const Contact = () => {
     return (
 
-        <section id="contact" className="py-22 md:py-32 relative overflow-hidden">
+        <section id="contact" className="py-8 md:py-32 relative overflow-hidden">
             <div className="absolute top-0 right-0 w-1/2 h-full bg-[#ffe16d]/5 blur-[120px] -z-10"></div>
-            <div className="max-w-[1280px] mx-auto px-8">
+            <div className="max-w-[1280px] mx-auto px-2">
                 <div className="max-w-4xl mx-auto glass-card rounded-[40px] p-8 md:p-16">
                     <div className="text-center mb-16">
                         <h3 className="font-['Montserrat'] text-[32px] md:text-[48px] leading-[1.2] font-bold text-[#e5e2e1] mb-4">Ready to Elevate Your Event?</h3>
