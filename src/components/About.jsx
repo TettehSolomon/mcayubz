@@ -18,7 +18,7 @@ const About = () => {
 
           <div className="grid grid-cols-2 gap-6">
             <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.4s' }}>
-              <span className="font-['Montserrat'] text-[40px] leading-[1.2] font-bold text-[white] block mb-2">500+</span>
+              <span className="font-['Montserrat'] text-[40px] leading-[1.2] font-bold text-[white] block mb-2">100+</span>
               <span className="font-['Montserrat'] text-[15px] tracking-[0.1em] font-semibold text-[white]">Events Anchored</span>
             </div>
             <div className="p-6 bg-[#A7AAAD] rounded-xl animate-fade-in" style={{ animationDelay: '0.5s' }}>
