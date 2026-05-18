@@ -13,7 +13,13 @@ const About = () => {
             Bridging Two Worlds: Clean Entertainment &amp; Hybrid Hosting.
           </h3>
           <p className="font-['Inter'] text-[18px] leading-[1.6] text-[#958865] text-justify mb-8">
-            MC Ayubz isn't just a voice on a microphone; he's a master of atmosphere. With a unique ability to ignite wedding dance floors and command business events with infectious energy, he represents the pinnacle of "Hybrid Entertainment."
+            Ayuba Emmanuel, popularly known as MC Ayubz, is a vibrant and charismatic event host known for
+            creating engaging, seamless, and unforgettable experiences.
+
+            With a natural ability to connect with diverse audiences, he brings the perfect blend of energy, structure,
+            and professionalism to every event. Whether it’s a corporate gathering, conference, wedding, or social
+            celebration, MC Ayubz doesn’t just anchor events, he elevates the atmosphere and keeps every
+            moment alive.
           </p>
 
           <div className="grid grid-cols-2 gap-6">

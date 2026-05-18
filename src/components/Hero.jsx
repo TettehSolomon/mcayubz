@@ -16,10 +16,10 @@ const Hero = () => {
       </div>
 
       <div className="relative z-10 max-w-[1280px] mx-auto px-8 mt-37 md:mt-17 text-center flex flex-col items-center">
-        <h1 className="font-['Montserrat'] text-[48px] md:text-[80px] leading-[1.1] tracking-[-0.02em] font-black text-white mb-4 uppercase animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
+        <h1 className="font-['Montserrat'] text-[43px] md:text-[80px] leading-[1.1] tracking-[-0.02em] font-black text-white mb-4 uppercase animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
           MC AYUBZ
         </h1>
-        <p className="font-['Montserrat'] text-[26px] md:text-[58px] leading-[1.2] font-bold text-[#d0c6ab] mb-12 max-w-3xl mx-auto uppercase tracking-wider animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
+        <p className="font-['Montserrat'] text-[22px] md:text-[58px] leading-[1.2] font-bold text-[#d0c6ab] mb-12 max-w-3xl mx-auto uppercase tracking-wider animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           THE ALL ROUND MC🎙️ <span className="text-[#e5e2e1]"></span> <br /><span className="text-[#e9c400]">For All Events</span>
         </p>
         <div className="flex flex-row md:flex-row gap-6 justify-center items-center animate-fade-in-up mb-8 md:mb-12" style={{ animationDelay: '0.6s' }}>
