@@ -66,7 +66,7 @@ const Services = () => {
                                 <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">ANNIVERSARY CELEBRATION</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
-                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">BUSINESS SEMINARS</span>
+                                <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">BURIAL CEREMONIES</span>
                             </div>
                             <div className="p-4 rounded-xl bg-white/5 border border-white/5">
                                 <span className="font-['Montserrat'] text-[12px] md:text-[14px] tracking-[0.1em] font-semibold text-[#ffe16d]">CHURCH EVENTS</span>
